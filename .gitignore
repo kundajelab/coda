@@ -1,0 +1,9 @@
+bds.pid*
+*bed
+*txt
+.ipynb*
+*.pyc
+chipseq.bds*
+*.csv
+/logs
+.Rproj.user
