@@ -41,7 +41,7 @@ where there's enough space!
 
 5) Finally, run `python runGMExperiments.py` to get the experiments going. Numerical results will be 
 written to `RESULTS_ROOT`. Output tracks (reconstructed signal and peak calls) will be written to `RESULTS_BIGWIG_ROOT`.
-
+We make use of the R 'PRROC' package, written by Jan Grau and Jens Keilwagen, to evaluate peak calls.
 
 ## Processing your own data
 We use the AQUAS ChIP-seq pipeline (https://github.com/kundajelab/TF_chipseq_pipeline)

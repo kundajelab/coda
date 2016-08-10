@@ -1,3 +1,6 @@
+# Taken from the PRROC R package, https://cran.r-project.org/web/packages/PRROC/PRROC.pdf.
+# Written by Jan Grau and Jens Keilwagen.
+
 pr_curve<-function( scores_class0, scores.class1=scores.class0, weights_class0=NULL, 
 		weights.class1 = {if(is.null(weights.class0)){NULL}else{1-weights.class0}}, sorted = FALSE, curve = FALSE, 
 		minStepSize=min(1,ifelse(is.null(weights.class0),1,sum(weights.class0)/100)),
