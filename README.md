@@ -2,7 +2,12 @@
 
 Coda uses convolutional neural networks to learn a mapping from noisy to high-quality ChIP-seq data.
 These trained networks can then be used to remove noise and improve the quality of new ChIP-seq data.
-For more details, please refer to our bioRxiv preprint: http://biorxiv.org/content/early/2016/05/07/052118. A journal article is in preparation.
+For more details, please refer to our paper
+
+Koh PW, Pierson E, Kundaje A, Denoising genome-wide histone ChIP-seq with convolutional neural networks. Bioinformatics (2017) 33 (14): i225-i233 URL:https://doi.org/10.1093/bioinformatics/btx243 (ISMB 2017 Proceedings)
+
+bioRxiv doi: https://doi.org/10.1101/052118
+
 
 ## Dependencies
 The code is written in Python 2.7 and requires the following Python packages to run:
